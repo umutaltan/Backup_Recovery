@@ -1,0 +1,10 @@
+RESTORE DATABASE Employee_DB 
+FROM DISK = 'C:\SQLBackup\Employee_Full.bak' 
+WITH NORECOVERY, REPLACE;
+GO
+
+
+RESTORE DATABASE Employee_DB 
+FROM DISK = 'C:\SQLBackup\Employee_Diff.bak' 
+WITH RECOVERY;
+GO

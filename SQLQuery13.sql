@@ -1,0 +1,2 @@
+-- 1. Veritabanı bağlantılarını kes
+ALTER DATABASE Employee_DB SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
